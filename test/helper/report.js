@@ -94,7 +94,8 @@ const run = (type, reporter, match = []) => {
 		concurrency: 1,
 		updateSnapshots: false,
 		snapshotDir: false,
-		color: true
+		color: true,
+		nodeArguments: []
 	};
 	let pattern = '*.js';
 
